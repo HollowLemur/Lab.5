@@ -1,0 +1,20 @@
+{
+  "name": "defi-lab5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chain": "hardhat node --network local --hostname 127.0.0.1 --port 8547",
+    "compile": "node scripts/compile.js",
+    "report": "node scripts/report.js",
+    "lab": "node scripts/lab.js --step-by-step",
+    "lab:all": "node scripts/lab.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "hardhat": "3.0.0",
+    "solc": "0.8.34"
+  }
+}
